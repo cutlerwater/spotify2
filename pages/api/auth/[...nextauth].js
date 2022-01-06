@@ -10,4 +10,5 @@ export default NextAuth({
             authorization: LOGIN_URL,
         }),
     ],
+    secret: process.env.JWT_SECRET,
 })

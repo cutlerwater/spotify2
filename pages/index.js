@@ -9,7 +9,7 @@ export default function Home() {
      
 
       <h1>This is a spotify clone</h1>
-      <main>
+      <main className="bg-black h-screen overflow-hidden">
         <Sidebar />
         {/* Sidebar
         Center */}
